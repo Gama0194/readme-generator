@@ -17,12 +17,12 @@ inquirer
     {
       type: "input",
       name: "screenshot",
-      message: "Please provide the relative path to the image you want to use as the screenshot."
+      message: "Please provide the relative path to the image you want to use as the screenshot.",
     },
     {
       type: "input",
       name: "link",
-      message: "Please provide a URL where a user can access your deployed application."
+      message: "Please provide a URL where a user can access your deployed application.",
     },
     {
       type: "checkbox",
@@ -30,7 +30,6 @@ inquirer
       message: "Please select a license applicable to this project.",
       choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
     },
-    
     {
       type: "input",
       name: "creator",
@@ -44,7 +43,7 @@ inquirer
     {
       type: "input",
       name: "test",
-      message: "Provide walkthrough of required tests if applicable.",
+      message: "Provide a walkthrough of required tests if applicable.",
     },
   ])
   .then((response) => {
